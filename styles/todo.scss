@@ -1,0 +1,173 @@
+.container {
+  margin: auto;
+}
+
+ body{
+  background: rgb(194, 222, 209);
+  color: rgb(53, 66, 89);
+  margin:0;
+
+  header{
+    background: #354259;
+    color: white;
+    padding: 3px;
+
+    h2{
+      margin: 10px;
+    }
+  }
+
+ }
+
+
+input[type=checkbox]:checked{
+  accent-color: green !important;
+}
+
+main {
+
+  //dialog design 
+  dialog {
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border: none;
+    border-radius: 11px;
+  }
+
+  .firstSection {
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+
+    .list {
+      height: 60vh;
+      margin: 20px;
+      padding: 10px;
+      width: 25vw;
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      overflow: scroll;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+      background: rgb(205, 194, 174);
+    }
+
+  }
+
+}
+
+
+
+.mainDiv {
+
+  i {
+    cursor: pointer;
+  }
+
+  .standardDiv {
+
+    grid-template-columns: 5% 80% 10%;
+    display: grid;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 0.5px solid #000000;
+
+    .checkBox {
+      
+      height: 25px;
+      width: 18px;
+    }
+  }
+
+  .expandDiv {
+    // margin: 10px;
+    padding: 10px;
+    width: auto;
+    display: none;
+    overflow: hidden;
+    transition: height 200ms;
+    box-shadow: rgb(53 66 89) -1px 5px 7px 0px;
+
+    .status{
+      color:red;
+
+    }
+
+    div{
+      padding: 5px;
+    }
+
+  }
+
+
+}
+
+
+
+.connect {
+  border-radius: 10px;
+  background-color: rgb(53, 66, 89);
+  color: white;
+  border: 0;
+  margin: 5px;
+  padding: 8px;
+  z-index: 100;
+  width: 100px;
+
+  &:hover {
+    background: rgba(58, 130, 142, 0.8901960784);
+    box-shadow: 0 0.4em 0.4em -0.4em;
+    transform: translateY(-0.15em);
+  }
+}
+
+
+.addItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 8px;
+  gap: 20px;
+  width: 30vw;
+
+  span {
+    display: flex;
+    flex-direction: column;
+
+    label{
+      padding-bottom: 5px;
+    }
+
+    input{
+      padding: 5px;
+    border: 1px solid #354259;
+    }
+  }
+
+  div {
+    text-align: center;
+  }
+}
+
+//  notification icon when completed the item 
+.notificationIcon{
+  display: none;
+  width: 15vw;
+  transition: 0.3s;
+    float: right;
+    background-color: rgb(53, 66, 89);
+    color: white;
+    height: 7vh;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "title": "Complete Assignment 1 of AED",
+        "description": "It is very important assignment",
+        "due_date": "10/13/2022",
+        "due_time": "12:00 AM",
+        "status" : true
+    },
+    {
+        "id" : 2,
+        "title": "Java Assignment",
+        "description": "Friday Class",
+        "due_date": "10/14/2022",
+        "due_time": "12:00 AM",
+        "status" : true
+    }
+]   
