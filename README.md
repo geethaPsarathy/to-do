@@ -1,4 +1,4 @@
-# Assignment - 6 : TO-DO App 
+# TO-DO App 
 
 <h1> Add and Complete todo list </h1>
 
