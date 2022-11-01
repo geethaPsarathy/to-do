@@ -1,6 +1,6 @@
 # TO-DO App 
 
-[click to open App](https://geethapsarathy.github.io/to-do/) 
+[Website Link](https://geethapsarathy.github.io/to-do/) 
 
 <h1> Add and Complete todo list </h1>
 
